@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/anders/ros2_iron_ws/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/anders/ros2_iron_ws/install/blue_boat/lib/python3.10/site-packages",
+        "/home/anders/ros2_iron_ws/install/bb_supervisor/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/anders/ros2_iron_ws/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/anders/ros2_iron_ws/install/blue_boat/lib/python3.10/site-packages",
+        "/home/anders/ros2_iron_ws/install/bb_supervisor/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ]
+}

@@ -63,15 +63,15 @@ public:
     void control_timer_callback(){
         if (active){
             this->sw.start();
-            double obs_lat = -35.36257755;
+            /*double obs_lat = -35.36257755;
             double obs_long = 149.1648973;
             double obs_size = 1;
             double obs_safe_dist = 20;
             double obs_x = (obs_long - this->position(0)) * 111000 * cos(this->position(1)* M_PI / 180);
-            double obs_y = (obs_lat - this->position(1))*111000;
+            double obs_y = (obs_lat - this->position(1))*111000;*/
 
 
-            this->obstacles.push_back(new sbmpc::Object(obs_x, obs_y, obs_size, obs_size, obs_safe_dist));
+            //this->obstacles.push_back(new sbmpc::Object(obs_x, obs_y, obs_size, obs_size, obs_safe_dist));
 
             double hdg = sbmpc::waypointToHeading(this->position, this->target);
 
